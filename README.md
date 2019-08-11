@@ -1,2 +1,2 @@
 # leetcode
-My leetcode assignments
+My leetcode assignments, records and remarks.

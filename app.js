@@ -6,6 +6,7 @@ require.config({
         TwoSum: 'twosum/TwoSum',
         addtwoNum: 'addtwonum',
         filter: 'filter',
+        palinsubstr: 'longestpalindromic',
     },
 });
 
