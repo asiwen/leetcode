@@ -5,11 +5,15 @@ require.config({
         app: 'app',
         TwoSum: 'twosum/TwoSum',
         addtwoNum: 'addtwonum',
+        filter: 'filter',
     },
 });
 
 // Start loading the main app file. Put all of
 // your application logic in there.
 require(['TwoSum',
-    'addtwoNUm'
-]);
+    'addtwoNUm', 'filter'
+], function(t, addtwoNUm, filter){
+    var A = [10, 7, 4, 3, 2, 1];
+    console.log(A, filter.avgfilt(A, 3));
+});
