@@ -13,3 +13,4 @@ map/reduce example:
 * {'bytes':'column1','speed0':'column2', 'speed1':'column3'}  => "column1 as bytes, column2 as speed0, column3 as speed1"
 * groupby, forEach
 * 批量装载文件、读取内容、转换处理、输出
+* IntStream.range(0, 10).forEach(System.out::println);  //basic stream api
