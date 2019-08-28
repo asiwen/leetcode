@@ -15,3 +15,35 @@ map/reduce example:
 * groupby, forEach
 * 批量装载文件、读取内容、转换处理、输出
 * IntStream.range(0, 10).forEach(System.out::println);  //basic stream api
+
+
+java process/subprocess:
+```java
+  public static void main(String[] args) {
+       ProcessBuilder procBuilder = new ProcessBuilder();
+        procBuilder.command("python", "test.py")
+                .inheritIO()
+                .redirectErrorStream(true);
+
+        try {
+            Process process = procBuilder.start();
+            InputStream stdout = process.getInputStream();
+            byte[] buf = new byte[256];
+            do {
+                while (stdout.available() > 0 && stdout.read(buf) > 0) {
+                    System.out.println(new String(buf, StandardCharsets.UTF_8));
+                }
+                System.out.println("wait subprocess response..");
+
+            } while (!process.waitFor(3L, TimeUnit.SECONDS));
+
+            while (stdout.available() > 0 && stdout.read(buf) > 0) {
+                System.out.println(new String(buf, StandardCharsets.UTF_8));
+            }
+
+            System.out.println("process end");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+```
