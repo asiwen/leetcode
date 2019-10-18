@@ -7,3 +7,4 @@
 
 * clustering with DTW: https://blog.csdn.net/weixin_34110749/article/details/92361866  
 * DTW in KNN: https://stackoverflow.com/questions/57015499/how-to-use-dynamic-time-warping-with-knn-in-python 
+* 模型选择思路：http://blog.sina.com.cn/s/blog_7103b28a0102w6yg.html
