@@ -42,4 +42,5 @@ DataFrame最好按列遍历(apply(func,axis=0)), 即看成列向量的组合。
 ### DataFrame reshape
 1. 行/列转换(包含部分转换)
 2. 转置、unstack, stack操作
+3. dataframe.pivot, pivot_table
 
