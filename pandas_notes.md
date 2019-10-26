@@ -39,4 +39,7 @@ DataFrame最好按列遍历(apply(func,axis=0)), 即看成列向量的组合。
 ### pandas.Series作为向量进行算是运算
 注意两个series对象的index必须一致，否则会导致预想不到的结果
 
+### DataFrame reshape
+1. 行/列转换(包含部分转换)
+
 
