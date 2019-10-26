@@ -44,6 +44,8 @@ DataFrame最好按列遍历(apply(func,axis=0)), 即看成列向量的组合。
 2. 转置、unstack, stack操作
 3. dataframe.pivot, pivot_table
 
-### DataFrame merge/join
+### DataFrame merge/join/concat
+
+### DataFrame 增加行/列
 
 
