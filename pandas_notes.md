@@ -31,3 +31,7 @@ df.groupby('id').apply(f)
 
 ### transform/apply 采坑
 pandas目前的实现，transform/apply会对第一个分组扫描两遍用以确定返回的对象。
+
+### DataFrame遍历
+DataFrame最好按列遍历(apply(func,axis=0)), 即看成列向量的组合。
+如果按行遍历（apply(func, axis=1）,则可能导致某些列所对象数据类型发生自动转换，导致数据失真。例如 int64 -> float64.
