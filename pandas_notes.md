@@ -28,3 +28,6 @@ df.insert(0, 'id', [0,0,0,1,2,2,1,1,3,3])
 df.groupby('id').apply(f)
 
 ```
+
+### transform/apply 采坑
+pandas目前的实现，transform/apply会对第一个分组扫描两遍用以确定返回的对象。
