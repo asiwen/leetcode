@@ -1,3 +1,4 @@
+```java
 Icon cannot be found in 'icons/st.png', aClass='class org.antlr.jetbrains.st4plugin.Icons'
 java.lang.Throwable: Icon cannot be found in 'icons/st.png', aClass='class org.antlr.jetbrains.st4plugin.Icons'
 	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:123)
@@ -50,3 +51,4 @@ java.lang.Throwable: Icon cannot be found in 'icons/st.png', aClass='class org.a
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+```	
