@@ -8,3 +8,8 @@
 * clustering with DTW: https://blog.csdn.net/weixin_34110749/article/details/92361866  
 * DTW in KNN: https://stackoverflow.com/questions/57015499/how-to-use-dynamic-time-warping-with-knn-in-python 
 * 模型选择思路：http://blog.sina.com.cn/s/blog_7103b28a0102w6yg.html
+* 集成学习介绍  https://blog.csdn.net/chengfulukou/article/details/76886767
+* 集成学习: Adaboost, RF  https://blog.csdn.net/wangrongrongwq/article/details/86667902
+* 6大分群（聚类）评估指标 https://blog.csdn.net/sinat_26917383/article/details/70577710
+* 季节性ARIMA：时间序列预测 https://blog.csdn.net/yuuyuhaksho/article/details/87535788
+* AI和机器学习必须关注的6大领域  https://www.leiphone.com/news/201809/vGv3vhFjoLJs5Qba.html
