@@ -13,3 +13,9 @@
 * 6大分群（聚类）评估指标 https://blog.csdn.net/sinat_26917383/article/details/70577710
 * 季节性ARIMA：时间序列预测 https://blog.csdn.net/yuuyuhaksho/article/details/87535788
 * AI和机器学习必须关注的6大领域  https://www.leiphone.com/news/201809/vGv3vhFjoLJs5Qba.html
+
+## 模型选择
+* 模型选择的一般技术 http://statweb.stanford.edu/~jtaylo/courses/stats203/notes/selection.pdf
+* scikit-learn模型选择工具 https://scikit-learn.org/stable/model_selection.html
+* 模型选择和超参调优 https://www.jianshu.com/p/7e1011b135a1
+* 鲁棒回归(一类算法) https://www.zhihu.com/question/62127796 
