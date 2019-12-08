@@ -49,4 +49,8 @@ DataFrame最好按列遍历(apply(func,axis=0)), 即看成列向量的组合。
 
 ### DataFrame 增加行/列
 
+### indexing
+1. loc, iloc, []([start:stoped:step], start and stoped includes)
+
+
 
