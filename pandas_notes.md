@@ -57,6 +57,7 @@ DataFrame最好按列遍历(apply(func,axis=0)), 即看成列向量的组合。
 2. Chaco 比matplotlib对交互式的支持好得多，既可以绘制静态图又可以生成交互式图。要生成**交互式的GUI应用程序**可以使用。
 3. mayavi 能集成到IPython以实现交互式使用
 #### matplotlib为直方图增加拟合曲线
+使用到了matplotlib.mlab.normpdf函数
 ```python
 import numpy as np
 import matplotlib.mlab as mlab
