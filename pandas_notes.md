@@ -52,5 +52,10 @@ DataFrame最好按列遍历(apply(func,axis=0)), 即看成列向量的组合。
 ### indexing
 1. loc, iloc, []([start:stoped:step], start and stoped includes)
 
+### 图形化工具
+1. matplotlib 生成静态图片，原本为印刷而设计。在交互式的notebook环境中使用不便
+2. Chaco 比matplotlib对交互式的支持好得多，既可以绘制静态图又可以生成交互式图。要生成**交互式的GUI应用程序**可以使用。
+3. mayavi 能集成到IPython以实现交互式使用
+
 
 
