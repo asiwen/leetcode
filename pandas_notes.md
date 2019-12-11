@@ -56,6 +56,37 @@ DataFrame最好按列遍历(apply(func,axis=0)), 即看成列向量的组合。
 1. matplotlib 生成静态图片，原本为印刷而设计。在交互式的notebook环境中使用不便
 2. Chaco 比matplotlib对交互式的支持好得多，既可以绘制静态图又可以生成交互式图。要生成**交互式的GUI应用程序**可以使用。
 3. mayavi 能集成到IPython以实现交互式使用
+#### matplotlib为直方图增加拟合曲线
+```python
+import numpy as np
+import matplotlib.mlab as mlab
+import matplotlib.pyplot as plt
+import pandas
+# Load dataset 鸢尾花iris花冠数据
+url =
+"https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+names = ['sepal-length', 'sepal-width','petal-length', 'petal-width', 'class']
+dataset = pandas.read_csv(url, names=names)
+print(dataset.head(10))
+# descriptions
+print(dataset.describe())
+x = dataset.iloc[:,0] #提取第一列的sepal-length变量
+mu =np.mean(x) #计算均值
+sigma =np.std(x)
+mu,sigma
+
+num_bins = 30 #直方图柱子的数量
+n, bins, patches = plt.hist(x, num_bins,normed=1, facecolor='blue', alpha=0.5) 
+#直方图函数，x为x轴的值，normed=1表示为概率密度，即和为一，绿色方块，色深参数0.5.返回n个概率，直方块左边线的x值，及各个方块对象 
+y = mlab.normpdf(bins, mu, sigma)#拟合一条最佳正态分布曲线y 
+plt.plot(bins, y, 'r--') #绘制y的曲线
+plt.xlabel('sepal-length') #绘制x轴
+plt.ylabel('Probability') #绘制y轴
+plt.title(r'Histogram : $\mu=5.8433$,$\sigma=0.8253$')#中文标题 u'xxx' 
+
+plt.subplots_adjust(left=0.15)#左边距 
+plt.show() 
+```
 
 
 
