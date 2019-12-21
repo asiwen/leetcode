@@ -44,6 +44,7 @@ DataFrame最好按列遍历(apply(func,axis=0)), 即看成列向量的组合。
 2. 转置、unstack, stack操作
 3. dataframe.pivot, dataframe.pivot_table
 4. pandas.melt
+5. [How to Split a Column into Two Columns in Pandas](https://cmdlinetips.com/2018/11/how-to-split-a-text-column-in-pandas/)
 
 ### DataFrame merge/join/concat
 
