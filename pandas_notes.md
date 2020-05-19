@@ -47,6 +47,10 @@ DataFrame最好按列遍历(apply(func,axis=0)), 即看成列向量的组合。
 5. [How to Split a Column into Two Columns in Pandas](https://cmdlinetips.com/2018/11/how-to-split-a-text-column-in-pandas/)
 
 ### DataFrame merge/join/concat
+按照index合并两个DataFrame的三种方法：
+1. pd.merge(df1, df2, left_index=True, right_index=True)
+2. df1.join(df2)
+3. pd.concat([df1, df2], axis=1)
 
 ### DataFrame 增加行/列
 
