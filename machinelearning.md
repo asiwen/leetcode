@@ -26,3 +26,6 @@ xgboost, LSTM等监督学习，需要监督化的数据，及先对数据预处�
 * 时间序列三类基础特征工程方法： https://machinelearningmastery.com/basic-feature-engineering-time-series-data-python/#:~:text=In%20this%20tutorial%2C%20we%20will%20look%20at%20three,over%20a%20fixed%20window%20of%20prior%20time%20steps.
 * Powerful Feature Engineering Techniques For Time Series Data (using Python)： https://www.analyticsvidhya.com/blog/2019/12/6-powerful-feature-engineering-techniques-time-series/
 * XGboost for Time series - using lag of target variables: https://stats.stackexchange.com/questions/400897/xgboost-for-time-series-using-lag-of-target-variables
+
+## 教程
+* 预测：方法与实践 https://otexts.com/fppcn/planning.html
