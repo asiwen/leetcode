@@ -27,5 +27,10 @@ xgboost, LSTM等监督学习，需要监督化的数据，及先对数据预处�
 * Powerful Feature Engineering Techniques For Time Series Data (using Python)： https://www.analyticsvidhya.com/blog/2019/12/6-powerful-feature-engineering-techniques-time-series/
 * XGboost for Time series - using lag of target variables: https://stats.stackexchange.com/questions/400897/xgboost-for-time-series-using-lag-of-target-variables
 
+## LSTM网络构造
+* How to Reshape Input Data for Long Short-Term Memory Networks in Keras https://machinelearningmastery.com/reshape-input-data-long-short-term-memory-networks-keras/ 
+* Interpretable Structure-Evolving LSTM https://www.yuque.com/lart/papers/gwswtb
+* LSTM模型理论总结（产生、发展和性能等） https://blog.csdn.net/shincling/article/details/49362161
+
 ## 教程
 * 预测：方法与实践 https://otexts.com/fppcn/planning.html
