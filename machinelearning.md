@@ -34,3 +34,4 @@ xgboost, LSTM等监督学习，需要监督化的数据，及先对数据预处�
 
 ## 教程
 * 预测：方法与实践 https://otexts.com/fppcn/planning.html
+* 时间序列分析： https://www.math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/tsa-linser-filt.html 
