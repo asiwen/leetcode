@@ -13,6 +13,7 @@
 * 6大分群（聚类）评估指标 https://blog.csdn.net/sinat_26917383/article/details/70577710
 * 季节性ARIMA：时间序列预测 https://blog.csdn.net/yuuyuhaksho/article/details/87535788
 * AI和机器学习必须关注的6大领域  https://www.leiphone.com/news/201809/vGv3vhFjoLJs5Qba.html
+* 分类问题的评价指标 https://blog.csdn.net/wf592523813/article/details/95202448
 
 ## 模型选择
 * 模型选择的一般技术 http://statweb.stanford.edu/~jtaylo/courses/stats203/notes/selection.pdf
